@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>株式会社サンプルサンプル</title>
+<!-- Bootstrap -->
+<!-- このcssはどこからもってくる？ -->
+<link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+<!--cssアレンジした内容記述  かなりアレンジしている-->
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- 背景色や文字色は余白は.navbarで設定できる -->
+<!--見出しやメニューは全部中央寄せ(.navbar {flex-direction: column;}で対応  -->
+
+<nav class="navbar navbar-expand-lg nav-set">
+	<h1>株式会社サンプルサンプル(SEO対策用の見出し)</h1>
+	<a class="navbar-brand" href="#"><img src="images/logo.png" alt="株式会社サンプルサンプル" class="img-fluid"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+ 		</button>
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">
+     		<li class="nav-item active">
+				<a href="#">ホーム</a>
+			</li>
+			<li class="nav-item">
+				<a href="#">ご挨拶</a>
+			</li>
+			<li class="nav-item">
+				<a href="#">事業内容</a>
+			</li>
+			<li class="nav-item">
+				<a href="#">会社案内</a>
+			</li>
+			<li class="nav-item">
+				<a href="#">採用情報</a>
+			</li>
+			<li class="nav-item">
+				<a href="#">お問い合わせ</a>
+			</li>
+		</ul>
+ 	</div>
+</nav>
+
+<main>
+<!-- アイキャッチ -->
+<div class="jumbotron jumbotron-fluid text-center">
+	<div class="container">
+		<h2>BootstrapでWebサイトを作ろう</h2>
+    <!--lead,my-2って？  -->
+    <!--背景画像読み込んでいるため、画像表示される  -->
+		<p class="lead">ホームページのサンプルです</p>
+		<hr class="my-2">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, dicta.</p>
+	</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>
